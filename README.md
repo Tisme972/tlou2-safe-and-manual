@@ -6,39 +6,40 @@ Petite application web (statique, servie par nginx dans Docker) qui recense :
 
 Recherche texte, filtre par chapitre, galerie d'images cliquable, et liens croisés entre coffres et manuels.
 
-## Lancer le projet
-```bash
-git clone https://github.com/Tisme972/tlou2-safe-and-manual.git
-```
-```bash
-cd tlou2-sage-and-manual
-```
-```bash
-docker compose up -d --build
-```
+## Lancer le projet (sans rien cloner)
 
-Puis ouvrir [http://localhost:8080](http://localhost:8080).
+L'image est construite et publiée automatiquement sur GitHub Container Registry (GHCR) à chaque push, comme le fait par exemple `open-webui`. Aucun dossier local n'est nécessaire : Docker télécharge l'image et gère tout depuis Docker Desktop.
 
-Pour arrêter :
+Le dépôt étant privé, l'image l'est aussi : il faut s'authentifier une fois auprès de GHCR (un token GitHub avec le scope `read:packages` suffit) :
 
 ```bash
-docker compose down
+docker login ghcr.io -u Tisme972
 ```
+
+Puis, simplement :
+
+```bash
+docker run -d --name tlou2-guide -p 8080:80 --restart unless-stopped ghcr.io/tisme972/tlou2-safe-and-manual:latest
+```
+
+Ouvrir ensuite [http://localhost:8080](http://localhost:8080). Le conteneur `tlou2-guide` apparaît et se gère intégralement depuis Docker Desktop (start/stop/logs/suppression).
 
 ### Changer le port d'écoute
 
-Le port par défaut est `8080`. Pour le changer, copier `.env.example` en `.env` et modifier la valeur :
+Remplacer `8080` par le port souhaité dans la commande ci-dessus (ex. `-p 9090:80`).
+
+### Avec `docker-compose.yml` (si tu gardes le fichier sur ta machine)
 
 ```bash
-cp .env.example .env
-# éditer .env : PORT=9090
-docker compose up -d --build
+PORT=9090 docker compose up -d
 ```
 
-Ou directement en ligne de commande, sans fichier `.env` :
+### Pour développer / modifier le code
 
 ```bash
-PORT=9090 docker compose up -d --build
+git clone https://github.com/Tisme972/tlou2-safe-and-manual.git
+cd tlou2-safe-and-manual
+docker compose -f docker-compose.dev.yml up -d --build
 ```
 
 ## Structure

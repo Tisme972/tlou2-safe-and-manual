@@ -1,6 +1,6 @@
 services:
   tlou2-guide:
-    image: ghcr.io/tisme972/tlou2-safe-and-manual:latest
+    build: .
     container_name: tlou2-guide
     ports:
       - "${PORT:-8080}:80"
