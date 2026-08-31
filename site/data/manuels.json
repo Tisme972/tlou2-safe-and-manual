@@ -1,0 +1,120 @@
+[
+  {
+    "id": "preparation",
+    "titre": "Préparation",
+    "personnage": "Ellie",
+    "branche": "Confection",
+    "chapitre": "Seattle, jour 1 - Centre-ville",
+    "description": "Pour récupérer ce manuel, vous devez rejoindre le camion de pompiers qui se trouve à l'est de la zone et utiliser une corde pour descendre en rappel. Ramassez ensuite le manuel à l'intérieur du conteneur.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-001.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-002.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-003.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-004.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-005.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-006.jpg"
+    ]
+  },
+  {
+    "id": "last-round",
+    "titre": "Last round",
+    "personnage": "Ellie",
+    "branche": "Furtivité",
+    "chapitre": "Seattle, jour 1 - Capitol Hill",
+    "description": "Ce second manuel se trouve dans une boutique de livres située à côté d'une station-service.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-007.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-008.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-009.jpg"
+    ]
+  },
+  {
+    "id": "chasseur-moderne",
+    "titre": "Le chasseur moderne",
+    "personnage": "Ellie",
+    "branche": "Précision",
+    "chapitre": "Seattle, jour 2 - Hillcrest",
+    "description": "Pour atteindre ce manuel, entrez dans la boutique Goldstar Liquor. Descendez ensuite au sous-sol du magasin pour rejoindre une boutique de livres pour enfants où se trouve le manuel au sol, à côté d'un cadavre.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-010.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-011.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-012.jpg"
+    ]
+  },
+  {
+    "id": "chimie-organique",
+    "titre": "Chimie organique : Concepts et mise en pratique",
+    "personnage": "Ellie",
+    "branche": "Explosifs",
+    "chapitre": "Seattle, jour 2 - À la recherche de Nora",
+    "description": "En route pour l'hôpital, avant de franchir une grille sur votre droite, se trouve un grand immeuble avec des appartements à louer. Entrez par une fenêtre qui donne sur le sous-sol puis montez au premier étage. En haut des escaliers, entrez dans l'appartement de droite puis utilisez l'établi dans la cuisine : vous serez attaqué par plusieurs individus cachés dans une chambre verrouillée. Une fois éliminés, entrez dans la chambre pour trouver le manuel sur le lit.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-013.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-014.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-015.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-016.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-017.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_medium_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-018.jpg"
+    ]
+  },
+  {
+    "id": "david-contre-goliath",
+    "titre": "David contre Goliath",
+    "personnage": "Abby",
+    "branche": "Opérations secrètes",
+    "chapitre": "Seattle, jour 1 - À pied",
+    "description": "Au cours du chapitre, vous serez amené à traverser un entrepôt où se trouve un bateau suspendu. Le manuel attend à l'intérieur de ce bateau.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-019.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-020.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-021.jpg"
+    ]
+  },
+  {
+    "id": "guerrier-urbain",
+    "titre": "Guerrier urbain",
+    "personnage": "Abby",
+    "branche": "Combat rapproché",
+    "chapitre": "Seattle, jour 1 - Territoire hostile",
+    "description": "Ce manuel se trouve dans le coffre-fort de la boutique « Jasmine Bakery ». Le code du coffre est le 68-96-89 et peut être trouvé dans le document « Coffre de la pâtisserie Jasmine ».",
+    "coffreLie": "seattle-j1-abby-territoirehostile",
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-022.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-023.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-024.jpg"
+    ]
+  },
+  {
+    "id": "munitions-faites-maison",
+    "titre": "Munitions faites maison",
+    "personnage": "Abby",
+    "branche": "Armes à feu",
+    "chapitre": "Seattle, jour 1 - La forêt",
+    "description": "Au cours de votre fuite dans la forêt, vous serez amené à vous réfugier dans un garage automobile. Prenez la porte au fond à droite du garage pour rejoindre une salle de pause puis prenez à droite pour trouver ce manuel sur une table située à l'accueil.",
+    "coffreLie": null,
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-025.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-026.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-027.jpg"
+    ]
+  },
+  {
+    "id": "armes-improvisees",
+    "titre": "Armes improvisées et tactiques terroristes : manuel pratique",
+    "personnage": "Abby",
+    "branche": "Équipement militaire",
+    "chapitre": "Seattle, jour 1 - La côte",
+    "description": "Ce dernier manuel se trouve sur le pont supérieur du bateau que vous devrez traverser dans le chapitre, plus précisément dans un coffre à l'arrière du navire. Le code pour l'ouvrir est le 90-77-01, que vous pouvez trouver dans le document « Note de mutinerie ».",
+    "coffreLie": "seattle-j1-abby-lacote",
+    "images": [
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-028.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-029.jpg",
+      "https://www.supersoluce.com/sites/default/files/styles/vignette_small_soluce/public/node/2809553/the-last-of-us-part-ii-manuels-entrainement-030.jpg"
+    ]
+  }
+]

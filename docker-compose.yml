@@ -1,0 +1,7 @@
+services:
+  tlou2-guide:
+    build: .
+    container_name: tlou2-guide
+    ports:
+      - "8080:80"
+    restart: unless-stopped

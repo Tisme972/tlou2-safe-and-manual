@@ -1,0 +1,217 @@
+[
+  {
+    "id": "jackson-patrouille",
+    "chapitre": "Jackson",
+    "sousChapitre": "Patrouille",
+    "combinaison": "07 20 13",
+    "description": "Lorsque vous explorerez un bâtiment avec Dina où vous devrez enfiler un masque, vous trouverez un bureau dans lequel se trouve un coffre ainsi qu'un document vous renseignant sur sa combinaison, qui correspond au mois où le \"bon chien\" a été élu \"employé du mois\". Un tableau dans le couloir vous permettra d'identifier juillet 2013 comme la date recherchée, donc \"07 2013\".",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235981/scenario-principal-jackson-patrouille.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159215/1592151866-3852-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159215/1592151866-3583-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159215/1592151866-2960-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-ellie-centreville-banque",
+    "chapitre": "Seattle - Jour 1, Ellie",
+    "sousChapitre": "Centre-ville (la banque)",
+    "combinaison": "60 23 06",
+    "description": "Dans la banque au sud-ouest de la map, vous aurez un groupe d'infectés à tuer avant d'accéder à une salle où se trouve un immense coffre-fort. Sa combinaison vous sera dévoilée par une note dans la sacoche d'un cadavre de pillard.",
+    "contenu": "Un artefact ainsi que le fusil à pompe.",
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235987/scenario-principal-seattle-jour-1-ellie-centre-ville.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258061-1297-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258061-597-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-ellie-centreville-porteouest2",
+    "chapitre": "Seattle - Jour 1, Ellie",
+    "sousChapitre": "Centre-ville (porte ouest 2)",
+    "combinaison": "04 51",
+    "description": "Au niveau de la porte ouest 2, vous trouverez un coffre tout seul après avoir franchi le portail. Vous pourrez l'ouvrir en utilisant le code de la porte concernée, que vous aurez récupéré au préalable.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235987/scenario-principal-seattle-jour-1-ellie-centre-ville.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258162-9038-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258104-1946-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258104-1994-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-ellie-centreville-tribunal",
+    "chapitre": "Seattle - Jour 1, Ellie",
+    "sousChapitre": "Centre-ville (le tribunal)",
+    "combinaison": "86 07 22",
+    "description": "Au rez-de-chaussée du tribunal, dans la pièce dont la porte est verrouillée (mais accessible en brisant les vitres), vous trouverez un coffre sous un bureau. Le code est affiché sur un tableau dans la même pièce, ainsi qu'au dos d'un artefact à récupérer dans un tiroir.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235987/scenario-principal-seattle-jour-1-ellie-centre-ville.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258244-3999-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592258244-5707-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-ellie-capitolhill",
+    "chapitre": "Seattle - Jour 1, Ellie",
+    "sousChapitre": "Capitol Hill",
+    "combinaison": "55 01 33",
+    "description": "Dans le local réservé aux employés du brocanteur, la pièce de gauche renferme un coffre (attention, un infecté agonisant au sol doit être abattu dès que vous ouvrez la porte !). Sa combinaison se constitue des 6 derniers chiffres du numéro de téléphone écrit sur le mur des WC, comme l'indique la note récupérée en amont.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235989/scenario-principal-seattle-jour-1-ellie-capitol-hill.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257970-6949-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257970-2814-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257970-5221-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j2-ellie-hillcrest",
+    "chapitre": "Seattle - Jour 2, Ellie",
+    "sousChapitre": "Hillcrest",
+    "combinaison": "30 82 65",
+    "description": "Dans la zone faisant suite au second établi du quartier, allez tout au fond à gauche, derrière le salon du tatoueur, pour trouver une porte de garage cachée derrière une poubelle à déplacer. Un groupe d'infectés se cache derrière, éliminez-les d'un coup avec un explosif ou inflammable pour accéder au coffre, dont la combinaison vous aura été communiquée sur un artefact trouvé dans une boutique voisine.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235995/scenario-principal-seattle-jour-2-ellie-hillcrest.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257932-7165-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257932-1690-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257932-5844-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257932-4136-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257932-6943-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j2-ellie-seraphites-appartement",
+    "chapitre": "Seattle - Jour 2, Ellie",
+    "sousChapitre": "Les Séraphites (immeuble du journal)",
+    "combinaison": "08 10 83",
+    "description": "Dans le plus petit des deux appartements à l'étage de l'immeuble du journal se trouve un coffre (dans la chambre). Sa combinaison fait l'objet d'une petite énigme : il faut recouper les informations d'un artefact trouvé dans l'appartement et du calendrier visible sur le mur de la chambre. Le calendrier révèle que le 8 octobre 2013 constituait leur 30ème anniversaire de mariage, donc la date de mariage à retenir est le 8 octobre 1983.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235997/scenario-principal-seattle-jour-2-ellie-les-seraphites.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257863-2113-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257863-6465-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257863-2700-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257863-688-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j2-ellie-seraphites-pharmacie",
+    "chapitre": "Seattle - Jour 2, Ellie",
+    "sousChapitre": "Les Séraphites (pharmacie Weston)",
+    "combinaison": "38 55 23",
+    "description": "Dans la pharmacie Weston, peu avant l'hôpital, vous verrez un trou dans le mur juste après le comptoir. Rampez pour passer dedans et vous verrez le coffre face à vous, sachant que le code vous aura été communiqué par la note cachée dans le comptoir.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235997/scenario-principal-seattle-jour-2-ellie-les-seraphites.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257820-4670-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257820-8111-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257820-4754-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j3-ellie-villeinondee",
+    "chapitre": "Seattle - Jour 3, Ellie",
+    "sousChapitre": "La ville inondée",
+    "combinaison": "70 12 64",
+    "description": "Dans le premier grand local que vous pourrez visiter, ce coffre se trouve derrière un mur grillagé dont la porte est verrouillée. Vous devez passer par au-dessus pour le rallier, et sa combinaison vous aura été révélée par le premier artefact trouvé dans ce sous-chapitre.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236001/scenario-principal-seattle-jour-3-ellie-la-ville-inondee.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159249/1592490383-3001-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159249/1592490383-1821-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159247/1592466973-811-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159247/1592466973-650-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159247/1592466973-8633-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257784-8695-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592257784-7378-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-abby-apied",
+    "chapitre": "Seattle - Jour 1, Abby",
+    "sousChapitre": "À pied",
+    "combinaison": "17 38 07",
+    "description": "Peu avant le dernier affrontement, vous verrez un trou dans un mur sur votre droite juste après le bâtiment préfabriqué contenant une pièce et un artefact. Entrez dans la bâtisse (plongée dans l'obscurité), c'est là que se trouve le coffre, dont la combinaison est celle du loto gagnant entouré en rouge sur un mur, comme suggéré dans l'artefact précédemment trouvé.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236006/scenario-principal-seattle-jour-1-abby-a-pied.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159220/1592203688-2184-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159220/1592203688-7245-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159220/1592203688-1150-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159220/1592203688-4662-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-abby-territoirehostile",
+    "chapitre": "Seattle - Jour 1, Abby",
+    "sousChapitre": "Territoire hostile (boulangerie Jasmine)",
+    "combinaison": "68 96 89",
+    "description": "Dans la rue des antiquaires, le coffre se trouve tout au fond de la boulangerie Jasmine (dont il faut exploser la vitre). Vous aurez obtenu le code sur une note obtenue dans une boutique de la rue d'en face, accessible en sautant d'un balcon à l'autre depuis l'étage deux bâtiments plus loin.",
+    "contenu": "Le manuel d'entraînement \"Guerrier urbain\" (branche Combat rapproché).",
+    "manuelLie": "guerrier-urbain",
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236009/scenario-principal-seattle-jour-1-abby-territoire-hostile.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159223/1592226860-2431-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159223/1592226860-2510-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159223/1592226859-856-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j1-abby-lacote",
+    "chapitre": "Seattle - Jour 1, Abby",
+    "sousChapitre": "La côte (le ferry)",
+    "combinaison": "90 77 01",
+    "description": "Sur le pont principal du ferry (tout en haut), vous trouverez le coffre dans la cabine de commandement sur votre gauche en sortant de l'escalier. Attention, un coureur immobile rôde à côté : éliminez-le par sécurité avant d'ouvrir le coffre. Le code s'obtient via l'artefact trouvé après avoir récupéré l'arbalète au pont inférieur.",
+    "contenu": "Le manuel d'entraînement \"Armes improvisées et tactiques terroristes\" (branche Équipement militaire).",
+    "manuelLie": "armes-improvisees",
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236012/scenario-principal-seattle-jour-1-abby-la-cote.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159247/1592467038-8217-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256513-3028-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256513-1485-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j2-abby-raccourci",
+    "chapitre": "Seattle - Jour 2, Abby",
+    "sousChapitre": "Le raccourci",
+    "combinaison": "30 23 04",
+    "description": "Lorsque vous serez sur la route au-dessus des rapides, vous entrerez dans un appartement via son balcon, en brisant la vitre. Le coffre se trouve dans une de ses chambres, et son code est basé, comme le mentionne un des artefacts trouvés dans le même logement, sur les numéros dudit appartement et du voisin (n°302 et 304).",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236015/scenario-principal-seattle-jour-2-abby-le-raccourci.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256533-9140-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256533-2561-capture-d-ecran.jpg"
+    ]
+  },
+  {
+    "id": "seattle-j2-abby-descente",
+    "chapitre": "Seattle - Jour 2, Abby",
+    "sousChapitre": "La descente",
+    "combinaison": "12 18 79",
+    "description": "Ce coffre se trouve dans un local de rangement juste après la salle de sport, derrière le comptoir d'accueil, au début du sous-chapitre. Le code est celui du wifi de l'hôtel, comme le révèle un des documents trouvés sur un panneau d'information, si vous ne l'avez pas déjà deviné en voyant certaines affiches dans la salle de sport.",
+    "contenu": null,
+    "manuelLie": null,
+    "sourceUrl": "https://www.jeuxvideo.com/wikis-soluce-astuces/1236016/scenario-principal-seattle-jour-2-abby-la-descente.htm",
+    "images": [
+      "https://image.jeuxvideo.com/medias-sm/159247/1592466797-8953-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256607-5253-capture-d-ecran.jpg",
+      "https://image.jeuxvideo.com/medias-sm/159226/1592256607-1745-capture-d-ecran.jpg"
+    ]
+  }
+]

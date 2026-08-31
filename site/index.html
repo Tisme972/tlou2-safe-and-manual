@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Last of Us Part II — Coffres &amp; Manuels d'entraînement</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>The Last of Us Part II</h1>
+    <p class="subtitle">Codes des coffres &amp; manuels d'entraînement</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="coffres">🔒 Coffres (<span id="count-coffres">0</span>)</button>
+    <button class="tab-btn" data-tab="manuels">📖 Manuels d'entraînement (<span id="count-manuels">0</span>)</button>
+  </nav>
+
+  <main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Rechercher un chapitre, un lieu, un code..." />
+      <select id="chapter-filter">
+        <option value="">Tous les chapitres</option>
+      </select>
+    </div>
+
+    <section id="panel-coffres" class="panel active">
+      <div id="grid-coffres" class="grid"></div>
+    </section>
+
+    <section id="panel-manuels" class="panel">
+      <div id="grid-manuels" class="grid"></div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden">
+    <button class="lightbox-close" id="lightbox-close">✕</button>
+    <img id="lightbox-img" src="" alt="" referrerpolicy="no-referrer" />
+  </div>
+
+  <footer>
+    <p>
+      Données et images issues de
+      <a href="https://www.jeuxvideo.com/wikis-soluce-astuces/1236160/localisation-et-combinaison-des-coffres.htm" target="_blank" rel="noopener">jeuxvideo.com</a>
+      et
+      <a href="https://www.supersoluce.com/soluce/last-us-2/les-manuels-d-entrainement" target="_blank" rel="noopener">supersoluce.com</a>.
+      Outil non officiel réalisé à usage personnel — tous droits sur The Last of Us Part II appartiennent à Naughty Dog / Sony Interactive Entertainment.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
