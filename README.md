@@ -25,6 +25,22 @@ Pour arrêter :
 docker compose down
 ```
 
+### Changer le port d'écoute
+
+Le port par défaut est `8080`. Pour le changer, copier `.env.example` en `.env` et modifier la valeur :
+
+```bash
+cp .env.example .env
+# éditer .env : PORT=9090
+docker compose up -d --build
+```
+
+Ou directement en ligne de commande, sans fichier `.env` :
+
+```bash
+PORT=9090 docker compose up -d --build
+```
+
 ## Structure
 
 ```
