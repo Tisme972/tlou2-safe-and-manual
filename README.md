@@ -7,7 +7,12 @@ Petite application web (statique, servie par nginx dans Docker) qui recense :
 Recherche texte, filtre par chapitre, galerie d'images cliquable, et liens croisés entre coffres et manuels.
 
 ## Lancer le projet
-
+```bash
+git clone https://github.com/Tisme972/tlou2-safe-and-manual.git
+```
+```bash
+cd tlou2-sage-and-manual
+```
 ```bash
 docker compose up -d --build
 ```
