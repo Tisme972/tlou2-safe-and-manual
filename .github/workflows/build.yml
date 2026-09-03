@@ -1,3 +1,4 @@
+
 name: Build & Push Image to GHCR
 
 on:
@@ -24,8 +25,9 @@ jobs:
 
       # Étape ajoutée pour convertir le nom d'utilisateur (github.actor) en minuscules
       - name: Lowercase registry owner
+        id: lowercase
         run: |
-          echo "ACTOR_LC=${{ github.actor }}" | tr '[:upper:]' '[:lower:]' >> $GITHUB_ENV
+          echo "owner=$(echo "${{ github.actor }}" | tr '[:upper:]' '[:lower:]')" >> "$GITHUB_OUTPUT"
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -42,9 +44,9 @@ jobs:
         with:
           context: .
           push: true
-          # Utilisation de la variable convertie ${{ env.ACTOR_LC }} à la place de ${{ github.actor }}
+          # Utilisation de la variable convertie via steps.lowercase.outputs.owner
           tags: |
-            ${{ env.REGISTRY }}/${{ env.ACTOR_LC }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ env.ACTOR_LC }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ steps.lowercase.outputs.owner }}/${{ env.IMAGE_NAME }}:latest
+            ${{ env.REGISTRY }}/${{ steps.lowercase.outputs.owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
