@@ -6,62 +6,238 @@ Petite application web (statique, servie par nginx dans Docker) qui recense :
 
 Recherche texte, filtre par chapitre, galerie d'images cliquable, et liens croisés entre coffres et manuels.
 
-## Lancer le projet (sans rien cloner)
+---
 
-L'image est construite et publiée automatiquement sur GitHub Container Registry (GHCR) à chaque push, comme le fait par exemple `open-webui`. Aucun dossier local n'est nécessaire : Docker télécharge l'image et gère tout depuis Docker Desktop.
+## 🚀 Démarrage Rapide
 
-Le dépôt étant privé, l'image l'est aussi : il faut s'authentifier une fois auprès de GHCR (un token GitHub avec le scope `read:packages` suffit) :
+### Sans cloner (juste Docker)
 
-```bash
-docker login ghcr.io -u Tisme972
-```
-
-Puis, simplement :
+L'image est construite et publiée automatiquement sur GHCR à chaque `push`. Aucune authentification requise.
 
 ```bash
 docker run -d --name tlou2-guide -p 8080:80 --restart unless-stopped ghcr.io/tisme972/tlou2-safe-and-manual:latest
 ```
 
-Ouvrir ensuite [http://localhost:8080](http://localhost:8080). Le conteneur `tlou2-guide` apparaît et se gère intégralement depuis Docker Desktop (start/stop/logs/suppression).
+Accéder à [http://localhost:8080](http://localhost:8080) 🎮
 
-### Changer le port d'écoute
+---
 
-Remplacer `8080` par le port souhaité dans la commande ci-dessus (ex. `-p 9090:80`).
+## 📋 Gestion via Docker Desktop
 
-### Avec `docker-compose.yml` (si tu gardes le fichier sur ta machine)
+Une fois le conteneur créé :
+
+- **Démarrer** : bouton ▶️
+- **Arrêter** : bouton ⏹️
+- **Consulter les logs** : onglet "Logs"
+- **Supprimer** : clic droit → Delete
+- **Paramètres** : clic droit → Settings
+
+---
+
+## 💻 Gestion via Ligne de Commande
+
+### Avec `Makefile` (Recommandé - **Plus simple**)
+
+À la racine du projet :
 
 ```bash
-PORT=9090 docker compose up -d
+# Démarrer
+make up
+
+# Avec un port personnalisé
+PORT=9090 make up
+
+# Voir les logs
+make logs
+
+# Arrêter
+make stop
+
+# Redémarrer
+make restart
+
+# Arrêter et supprimer
+make down
+
+# Voir toutes les commandes
+make help
 ```
 
-### Pour développer / modifier le code
+### Avec le Script `manage.sh` (Alternative)
 
 ```bash
+# Rendre exécutable
+chmod +x manage.sh
+
+# Démarrer
+./manage.sh start
+
+# Avec un port personnalisé
+./manage.sh start --port 9090
+
+# Voir les logs
+./manage.sh logs
+
+# Arrêter
+./manage.sh stop
+
+# Redémarrer
+./manage.sh restart
+
+# Mettre à jour depuis GHCR
+./manage.sh update
+
+# Mode développement
+./manage.sh dev
+
+# Aide
+./manage.sh help
+```
+
+### Avec `docker-compose` directement
+
+```bash
+# Démarrer
+docker compose up -d
+
+# Avec un port personnalisé
+PORT=9090 docker compose up -d
+
+# Voir les logs
+docker compose logs -f
+
+# Arrêter
+docker compose stop
+
+# Arrêter et supprimer
+docker compose down
+```
+
+### Avec `docker run` simple
+
+```bash
+docker run -d --name tlou2-guide -p 8080:80 --restart unless-stopped ghcr.io/tisme972/tlou2-safe-and-manual:latest
+
+# Voir les logs
+docker logs -f tlou2-guide
+
+# Arrêter
+docker stop tlou2-guide
+
+# Redémarrer
+docker start tlou2-guide
+
+# Supprimer
+docker rm tlou2-guide
+```
+
+---
+
+## 🔧 Mode Développement
+
+Pour modifier le code localement :
+
+```bash
+# Cloner
 git clone https://github.com/Tisme972/tlou2-safe-and-manual.git
 cd tlou2-safe-and-manual
+
+# Démarrer en mode watch (reconstruit automatiquement)
+make dev-up
+# ou
+./manage.sh dev
+# ou
 docker compose -f docker-compose.dev.yml up -d --build
 ```
 
-## Structure
+Arrêter :
 
-```
-Dockerfile
-docker-compose.yml
-site/
-  index.html
-  style.css
-  app.js
-  data/
-    coffres.json
-    manuels.json
+```bash
+make dev-down
+# ou
+./manage.sh dev-stop
+# ou
+docker compose -f docker-compose.dev.yml down
 ```
 
-## Sources et crédits
+---
 
-Les textes et images sont issus de :
-- [jeuxvideo.com — Localisation et combinaison des coffres](https://www.jeuxvideo.com/wikis-soluce-astuces/1236160/localisation-et-combinaison-des-coffres.htm)
-- [supersoluce.com — Les manuels d'entraînement](https://www.supersoluce.com/soluce/last-us-2/les-manuels-d-entrainement)
+## 🔄 Mettre à jour vers la dernière version
 
-Les images ne sont pas hébergées par ce projet : elles sont chargées directement depuis les sites sources.
+```bash
+# Avec Makefile
+make update
 
-Outil non officiel réalisé à usage personnel. Tous les droits sur *The Last of Us Part II* appartiennent à Naughty Dog / Sony Interactive Entertainment.
+# Avec le script
+./manage.sh update
+
+# Manuellement
+docker pull ghcr.io/tisme972/tlou2-safe-and-manual:latest
+docker compose up -d
+```
+
+---
+
+## 🐛 Troubleshooting
+
+**Le conteneur ne démarre pas :**
+
+```bash
+docker compose logs
+# ou
+make logs
+```
+
+**Le port est déjà utilisé :**
+
+```bash
+PORT=9090 make up
+# ou
+./manage.sh start --port 9090
+```
+
+**Voir le statut :**
+
+```bash
+docker ps
+# ou
+make ps
+```
+
+**Supprimer complètement :**
+
+```bash
+make clean
+# ou
+./manage.sh clean
+```
+
+---
+
+## 📦 Structure
+
+```
+.
+├── Dockerfile
+├── docker-compose.yml
+├── docker-compose.dev.yml
+├── Makefile
+├── manage.sh
+├── README.md
+└── site/
+    ├── index.html
+    ├── style.css
+    ├── app.js
+    └── data/
+        ├── coffres.json
+        └── manuels.json
+```
+
+---
+
+## 📚 Sources
+
+- [jeuxvideo.com — Coffres](https://www.jeuxvideo.com/wikis-soluce-astuces/1236160/localisation-et-combinaison-des-coffres.htm)
+- [supersoluce.com — Manuels](https://www.supersoluce.com/soluce/last-us-2/les-manuels-d-entrainement)
+
+Tous les droits sur *The Last of Us Part II* appartiennent à Naughty Dog / Sony Interactive Entertainment.
